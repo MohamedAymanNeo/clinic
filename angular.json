@@ -36,7 +36,28 @@
               "src/assets/vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.css"
 
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery/jquery-3.2.1.min.js",
+              "src/assets/vendor/jquery-migrate/jquery-migrate-3.0.1.min.js",
+              "src/assets/vendor/cookie/jquery.cookie.js",
+              "src/assets/vendor/bootstrap-datetimepicker/moment.js",
+              "src/assets/vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js",
+              "src/assets/vendor/popper/popper.min.js",
+              "src/assets/vendor/bootstrap/bootstrap.min.js",
+              "src/assets/vendor/waypoints/jquery.waypoints.min.js",
+              "src/assets/vendor/waypoints/sticky.min.js",
+              "src/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+              "src/assets/vendor/slick/slick.min.js",
+              "src/assets/vendor/scroll-with-ease/jquery.scroll-with-ease.min.js",
+              "src/assets/vendor/countTo/jquery.countTo.js",
+              "src/assets/vendor/form-validation/jquery.form.js",
+              "src/assets/vendor/form-validation/jquery.validate.min.js",
+
+              "src/assets/vendor/form-validation/jquery.validate.min.js",
+              "src/assets/js/app.js",
+              "src/assets/color/color.js",
+              "src/assets/form/forms.js"
+            ]
           },
           "configurations": {
             "production": {
