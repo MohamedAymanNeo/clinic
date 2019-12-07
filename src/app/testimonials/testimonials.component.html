@@ -18,24 +18,39 @@
       <p><a href="#writeReview" class="btn btn-hover-fill js-wrire-review"><i class="icon-right-arrow"></i><span>Write Your Review</span><i class="icon-right-arrow"></i></a></p>
     </div>
     <div class="row">
-      <div class="col-sm">
-        <div class="testimonial-wrap" *ngFor="let testim of testimonials">
-          <div class="testimonial text-center">
+      <div class="col-sm" *ngFor="let testim of testimonials">
+        <div class="testimonial-wrap" *ngFor="let item of testim.cols">
+          <div [class]="item.tesClasses">
             <div class="testimonial-photo">
-              <img [src]="testim.tesPhoto" alt="">
-              <img [src]="testim.tesSubPhoto" alt="">
+              <img [src]="item.tesPhoto" alt="">
+              <img [src]="item.tesSubPhoto" alt="">
             </div>
-            <div class="testimonial-title">{{ testim.tesTitle }}</div>
+            <div class="testimonial-title">{{ item.tesTitle }}</div>
             <div class="star-rating"><span class="txt-gradient"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div>
             <div class="testimonial-text">
               <p>
-                {{ testim.tesText }}
+                {{ item.tesText }}
               </p>
             </div>
-            <div class="testimonial-author"><span class="testimonial-name">– {{testim.tesName}},</span> <span class="testimonial-position">{{ testim.tesPosition }}</span></div>
+            <div class="testimonial-author"><span class="testimonial-name">– {{item.tesName}},</span> <span class="testimonial-position">{{ item.tesPosition }}</span></div>
           </div>
         </div>
-
+        <div class="testimonial-wrap" *ngFor="let item of testim.cols1">
+          <div [class]="item.tesClasses">
+            <div class="testimonial-photo">
+              <img [src]="item.tesPhoto" alt="">
+              <img [src]="item.tesSubPhoto" alt="">
+            </div>
+            <div class="testimonial-title">{{ item.tesTitle }}</div>
+            <div class="star-rating"><span class="txt-gradient"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div>
+            <div class="testimonial-text">
+              <p>
+                {{ item.tesText }}
+              </p>
+            </div>
+            <div class="testimonial-author"><span class="testimonial-name">– {{item.tesName}},</span> <span class="testimonial-position">{{ item.tesPosition }}</span></div>
+          </div>
+        </div>
       </div>
 
     </div>

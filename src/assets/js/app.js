@@ -658,50 +658,50 @@ $(function () {
 	}
 
 	// Isotope Gallery
-	if (blocks.isotopeGallery.length) {
-		var $gallery = blocks.isotopeGallery;
-		$gallery.imagesLoaded(function () {
-			$gallery.isotope({
-				itemSelector: '.gallery-item',
-				masonry: {
-					columnWidth: '.gallery-item',
-					gutter: 30
-				}
-			});
-			setTimeout(function () {
-				$gallery.isotope('layout');
-				$gallery.parent('.gallery-wrap').addClass('loaded');
-			}, 500);
-		});
-		isotopeFilters($gallery);
-	}
+	// if (blocks.isotopeGallery.length) {
+	// 	var $gallery = blocks.isotopeGallery;
+	// 	$gallery.imagesLoaded(function () {
+	// 		$gallery.isotope({
+	// 			itemSelector: '.gallery-item',
+	// 			masonry: {
+	// 				columnWidth: '.gallery-item',
+	// 				gutter: 30
+	// 			}
+	// 		});
+	// 		setTimeout(function () {
+	// 			$gallery.isotope('layout');
+	// 			$gallery.parent('.gallery-wrap').addClass('loaded');
+	// 		}, 500);
+	// 	});
+	// 	isotopeFilters($gallery);
+	// }
 
-	// Isotope Filters (for Gallery Page)
-	function isotopeFilters(gallery) {
-		var $gallery = $(gallery);
-		if ($gallery.length) {
-			var container = $gallery;
-			var optionSets = $(".filters-by-category .option-set"),
-				optionLinks = optionSets.find("a");
-			optionLinks.on('click', function (e) {
-				var thisLink = $(this);
-				if (thisLink.hasClass("selected")) return false;
-				var optionSet = thisLink.parents(".option-set");
-				optionSet.find(".selected").removeClass("selected");
-				thisLink.addClass("selected");
-				var options = {},
-					key = optionSet.attr("data-option-key"),
-					value = thisLink.attr("data-option-value");
-				value = value === "false" ? false : value;
-				options[key] = value;
-				if (key === "layoutMode" && typeof changeLayoutMode === "function") changeLayoutMode($this, options);
-				else {
-					container.isotope(options);
-				}
-				return false
-			})
-		}
-	}
+	// // Isotope Filters (for Gallery Page)
+	// function isotopeFilters(gallery) {
+	// 	var $gallery = $(gallery);
+	// 	if ($gallery.length) {
+	// 		var container = $gallery;
+	// 		var optionSets = $(".filters-by-category .option-set"),
+	// 			optionLinks = optionSets.find("a");
+	// 		optionLinks.on('click', function (e) {
+	// 			var thisLink = $(this);
+	// 			if (thisLink.hasClass("selected")) return false;
+	// 			var optionSet = thisLink.parents(".option-set");
+	// 			optionSet.find(".selected").removeClass("selected");
+	// 			thisLink.addClass("selected");
+	// 			var options = {},
+	// 				key = optionSet.attr("data-option-key"),
+	// 				value = thisLink.attr("data-option-value");
+	// 			value = value === "false" ? false : value;
+	// 			options[key] = value;
+	// 			if (key === "layoutMode" && typeof changeLayoutMode === "function") changeLayoutMode($this, options);
+	// 			else {
+	// 				container.isotope(options);
+	// 			}
+	// 			return false
+	// 		})
+	// 	}
+	// }
 
 	// Syncronized Gallery
 	function sliderGallery(main, thumbs) {
