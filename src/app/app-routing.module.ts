@@ -6,17 +6,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
-import { OurTeamComponent } from './our-team/our-team.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { PatientsComponent } from './patients/patients.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
   {path: 'about', component: AboutComponent},
   {path: 'services', component: ServicesComponent},
-  {path: 'team', component: OurTeamComponent},
-  {path: 'testimonials', component: TestimonialsComponent},
+  {path: 'patients', component: PatientsComponent},
   {path: 'contacts', component: ContactsComponent},
   {path: '**', component: NotFoundComponent},
 ];
