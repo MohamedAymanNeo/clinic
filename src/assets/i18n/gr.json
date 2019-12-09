@@ -1,6 +1,73 @@
 {
+  "MENU": {
+    "HOME": "Zuhause",
+    "ABOUT": "Über uns",
+    "SERVICES": "Dienstleistungen",
+    "PATIENTS": "Patienten",
+    "CONTACTS": "Kontakte",
+    "CHOOSE": "Sprache wählen:"
+  },
+  "SUBMENU": {
+    "LOCATION": "Ort",
+    "TIME": "Arbeitszeit",
+    "TIMETABLE": "Zeitplan für Ärzte",
+    "TABLETEXT": "Alle unsere Ärzte sind in den oben genannten Terminen verfügbar.",
+    "EMERGENCY": "Notfall",
+    "EMERGENCYTEXT": "Wenn eine medizinische Notfallversorgung erforderlich ist:",
+    "DETAILS": "Einzelheiten",
+    "CONTACTS": "Unsere Kontakte"
+  },
   "HOME": {
     "TITLE": "Holden Street San Diego GR",
     "INFO": "Contact Info GR"
+  },
+  "ABOUT": {
+    "TITLE": "Über uns",
+    "FTEXT": "Kommen Sie und erleben Sie einen etwas anderen medizinischen Service in unserer Privatpraxis. Eine Praxis, in der Sie:",
+    "LIST1": "Seien Sie in Ihre Pflege- und Behandlungsentscheidungen eingebunden",
+    "LIST2": "Seien Sie willkommen und fühlen Sie sich entspannt und gepflegt",
+    "LIST3": "Schätzen Sie das qualifizierte und erfahrene Team",
+    "LIST4": "Willst du die beste Zahnmedizin zur Verfügung",
+    "MISSION": "Mission / Vision",
+    "STATE": "Aussage",
+    "MISSIONTEXT": "Es ist unsere Mission, die Erwartungen zu übertreffen, indem wir unseren Patienten eine außergewöhnliche medizinische Grundversorgung bieten und gleichzeitig vertrauensvolle Beziehungen zu ihnen aufbauen.",
+    "OUR": "unser",
+    "ADV": "Vorteile",
+    "ADV1": "Erste ärztliche Untersuchung",
+    "ADV2": "Alle Arten der medizinischen Versorgung",
+    "ADV3": "Vor-Ort-Labor",
+    "ADV4": "“Gleicher Tag” Pflege",
+    "ADV5": "Versicherung und Finanzierung",
+    "ADV6": "Servicekosten",
+    "MOTIVATION": "Die Motivation ist einfach",
+    "CORE": "Unsere Grundwerte",
+    "INTITLE": "Innovation",
+    "INTTEXT": "Nehmen Sie Veränderungen an, fördern Sie Erfindungen und bleiben Sie stets an der Spitze der Fortschritte in der Mundgesundheit zum Wohle unserer Patienten",
+    "COMTITLE": "Barmherzigkeit",
+    "COMTEXT": "Zeigen Sie Fürsorge und Sensibilität für die unterschiedlichen Hintergründe unserer Patienten und Kollegen und Großzügigkeit in unseren Gemeinden",
+    "INTEGTITLE": "Integrität",
+    "INTEGTEXT": "Halten Sie sich an hohe ethische und berufliche Standards und beweisen Sie Ihr Engagement für unsere Verantwortung mit Vertrauen, Ehrlichkeit und Respekt für alle",
+    "OFFICE": "Unser Büro",
+    "OFFICETEXT": "Unsere medizinische Grundversorgung umfasst Untersuchungsraum, Laborabteilung, Beobachtungsraum.",
+    "AMENITIES": "Ausstattung",
+    "AMENITIES1": "Fernseher in jedem Behandlungsraum",
+    "AMENITIES2": "Kaffee gratis, Saft",
+    "AMENITIES3": "Kabelloses Internet",
+    "AMENITIES4": "Warme Lavendeltücher"
+  },
+  "SERV": {
+    "FIRST": "24 Stunden Notfall",
+    "FTEXT": "Für einfachen und schnellen Zugriff rund um die Uhr geöffnet",
+    "SECOND": "Komplette Labordienstleistungen",
+    "STEXT": "Kosteneffiziente, umfassende und klinische Labordienstleistungen",
+    "THIRD": "Medizinische Fachkräfte",
+    "TTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung" 
+  },
+  "WELCOME": {
+    "TIME": "25 Jahre Medical Excellence",
+    "MAINTITLE": "Willkommen zu",
+    "SPANTITLE": "Unsere Klinik",
+    "FIRSTTEXT": "Wir helfen Ihrem Körper dabei, sich zu regenerieren, indem wir Ihr eigenes Heilungspotential mit einer Vielzahl von Techniken zur Bekämpfung von Krankheiten, Verletzungen oder Entzündungen nutzen. Dieser Prozess beinhaltet eine Vielzahl von Techniken, einschließlich eines minimal-invasiven Verfahrens, das direkt in unserer Klinik durchgeführt wird.",
+    "SECONDTEXT": "Wir sind ein Team von medizinischen Forschern und Praktikern, die hart arbeiten, um effektive Behandlungen in unseren Punkt der Pflege-Einrichtungen bereitzustellen."
   }
 }

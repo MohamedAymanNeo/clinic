@@ -1,6 +1,73 @@
 {
+  "MENU": {
+    "HOME": "Casa",
+    "ABOUT": "Riguardo a noi",
+    "SERVICES": "Servizi",
+    "PATIENTS": "pazienti",
+    "CONTACTS": "Contatti",
+    "CHOOSE": "Scegli la lingua:"
+  },
+  "SUBMENU": {
+    "LOCATION": "Posizione",
+    "TIME": "Orario di lavoro",
+    "TIMETABLE": "Orario dei medici",
+    "TABLETEXT": "Tutti i nostri medici sono disponibili negli appuntamenti sopra menzionati.",
+    "EMERGENCY": "Caso di emergenza",
+    "EMERGENCYTEXT": "Se è necessaria assistenza medica di emergenza:",
+    "DETAILS": "Dettagli",
+    "CONTACTS": "I nostri contatti"
+  },
   "HOME": {
     "TITLE": "Holden Street San Diego IT",
     "INFO": "Contact Info IT"
+  },
+  "ABOUT": {
+    "TITLE": "Riguardo a noi",
+    "FTEXT": "Vieni a provare il servizio medico svolto in modo leggermente diverso nel nostro studio privato. Una pratica in cui dovrai:",
+    "LIST1": "Essere coinvolti nelle scelte di cura e trattamento",
+    "LIST2": "Essere accolti e sentirsi rilassati e curati",
+    "LIST3": "Apprezzo il team qualificato ed esperto",
+    "LIST4": "Vuoi il miglior odontoiatria disponibile",
+    "MISSION": "Visione della missione",
+    "STATE": "dichiarazione",
+    "MISSIONTEXT": "La nostra missione è di superare le aspettative fornendo un'eccezionale assistenza medica primaria ai nostri pazienti e, allo stesso tempo, costruendo relazioni di fiducia con loro.",
+    "OUR": "I nostri",
+    "ADV": "vantaggi",
+    "ADV1": "Valutazione medica iniziale",
+    "ADV2": "Tutti i tipi di cure mediche",
+    "ADV3": "Laboratorio in loco",
+    "ADV4": "“Stesso giorno” Cura",
+    "ADV5": "Assicurazione e finanziamento",
+    "ADV6": "Costo dei servizi",
+    "MOTIVATION": "La motivazione è facile",
+    "CORE": "I nostri valori fondamentali",
+    "INTTITLE": "Innovazione",
+    "INTTEXT": "Abbraccia il cambiamento, incoraggia l'invenzione e resta costantemente all'avanguardia dei progressi della salute orale per il bene dei nostri pazienti",
+    "COMTITLE": "Compassione",
+    "COMTEXT": "Dimostrare cura e sensibilità per i diversi background dei nostri pazienti e colleghi e generosità nelle nostre comunità",
+    "INTEGTITLE": "Integrità",
+    "INTEGTEXT": "Aderire a elevati standard etici e professionali, dimostrando impegno per le nostre responsabilità con fiducia, onestà e rispetto per tutti",
+    "OFFICE": "Il nostro ufficio",
+    "OFFICETEXT": "La nostra assistenza sanitaria di base contiene sala d'esame, sezione Laboratorio, sala di osservazione.",
+    "AMENITIES": "Servizi",
+    "AMENITIES1": "La TV è in ogni sala di trattamento",
+    "AMENITIES2": "Caffè gratuito, succo di frutta",
+    "AMENITIES3": "Internet senza fili",
+    "AMENITIES4": "Asciugamani caldi di lavanda"
+  },
+  "SERV": {
+    "FIRST": "24 ore di emergenza",
+    "FTEXT": "Aperto tutto il giorno per comodità, accesso rapido e facile",
+    "SECOND": "Servizi di laboratorio completi",
+    "STEXT": "Servizi di laboratorio economici, completi e clinici",
+    "THIRD": "Professionisti medici",
+    "TTEXT": "Medici qualificati e certificati per cure mediche di qualità" 
+  },
+  "WELCOME": {
+    "TIME": "25 anni di eccellenza medica",
+    "MAINTITLE": "Benvenuto a",
+    "SPANTITLE": "La nostra clinica",
+    "FIRSTTEXT": "Aiutiamo il tuo corpo a ripristinarsi sfruttando il tuo potenziale di guarigione con una varietà di tecniche per combattere aree di malattia, lesioni o infiammazioni. Questo processo prevede una varietà di tecniche tra cui una procedura minimamente invasiva condotta proprio nella nostra clinica.",
+    "SECONDTEXT": "Siamo un team di ricercatori e professionisti medici che lavorano duramente per fornire trattamenti efficaci nelle nostre strutture di cura."
   }
 }

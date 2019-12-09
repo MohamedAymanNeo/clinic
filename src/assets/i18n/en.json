@@ -1,6 +1,74 @@
 {
+  "MENU": {
+    "HOME": "Home",
+    "ABOUT": "About Us",
+    "SERVICES": "Services",
+    "PATIENTS": "Patients",
+    "CONTACTS": "Contacts",
+    "CHOOSE": "Choose Language:"
+  },
+  "SUBMENU": {
+    "LOCATION": "Location",
+    "TIME": "Working Time",
+    "TIMETABLE": "Doctors Timetable",
+    "TABLETEXT": "All of our doctors are available in the mentioned appointments above .",
+    "EMERGENCY": "Emergency Case",
+    "EMERGENCYTEXT": "If emergency medical care is required: ",
+    "DETAILS": "Details",
+    "CONTACTS": "Our Contacts"
+  },
   "HOME": {
     "TITLE": "Holden Street San Diego",
     "INFO": "Contact Info"
+  },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "FTEXT": "Come and experience medical service carried out a little differently in our Private Practice. A practice where you will:",
+    "LIST1": "Be involved in your care and treatment choices",
+    "LIST2": "Be welcomed and feel relaxed and cared for",
+    "LIST3": "Appreciate the well qualified, experienced team",
+    "LIST4": "Want the best dentistry available",
+    "MISSION": "Mission / Vision",
+    "STATE": "Statement",
+    "MISSIONTEXT": "It is our mission to exceed expectations by providing exceptional primary medical care to our patients and at the same time, building relationships of trust with them.",
+    "OUR": "our",
+    "ADV": "Advantages",
+    "ADV1": "Initial Medical Assessment",
+    "ADV2": "All Types of Medical care",
+    "ADV3": "On-site Laboratory",
+    "ADV4": "“Same Day” Care",
+    "ADV5": "Insurance and Financing",
+    "ADV6": "Services Cost",
+    "MOTIVATION": "Motivation is easy",
+    "CORE": "Our Core Values",
+    "INTTITLE": "Innovation",
+    "INTTEXT": "Embrace change, encourage invention and continually remain at the forefront of advances in oral health for the good of our patients",
+    "COMTITLE": "Compassion",
+    "COMTEXT": "Demonstrate caring and sensitivity for the diverse backgrounds of our patients and colleagues and generosity in our communities",
+    "INTEGTITLE": "Integrity",
+    "INTEGTEXT": "Adhere to high ethical and professional standards, demonstrating commitment to our responsibilities with trust, honesty and respect for all",
+    "OFFICE": "Our Office",
+    "OFFICETEXT": "Our primary health care contain examination room, Laboratory section , Observation room.",
+    "AMENITIES": "Amenities",
+    "AMENITIES1": "TV’s in each treatment room",
+    "AMENITIES2": "Complimentary coffee, Juice",
+    "AMENITIES3": "Wireless Internet",
+    "AMENITIES4": "Warm lavender towels"
+
+  },
+  "SERV": {
+    "FIRST": "24 Hours Emergency",
+    "FTEXT": "Open round the clock for convenience, quick and easy access",
+    "SECOND": "Complete Lab Services",
+    "STEXT": "Cost-efficient, comprehensive and clinical laboratory services",
+    "THIRD": "Medical Profesionals",
+    "TTEXT": "Qualified and certified physicians for quality medical care" 
+  },
+  "WELCOME": {
+    "TIME": "25 Years of Medical Excellence",
+    "MAINTITLE": "Welcome to",
+    "SPANTITLE": "Our Clinic",
+    "FIRSTTEXT": "We help your body restore itself by harnessing your own healing potential with a variety of techniques to combat areas of disease, injury or inflammation. This process involves a variety of techniques including a minimally invasive procedure conducted right in our clinic.",
+    "SECONDTEXT": "We are a team of medical researchers and practitioners who work hard to provide effective treatments in our point-of-care facilities."
   }
 }
