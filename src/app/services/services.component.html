@@ -1,17 +1,5 @@
 <div class="page-content">
-    <!--section-->
-    <!-- <div class="section mt-0">
-        <div class="breadcrumbs-wrap">
-            <div class="container">
-                <div class="breadcrumbs">
-                    <a href="index-2.html">Home</a>
-                    <span>Services</span>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--//section-->
-    <!--section-->
+
     <div class="section page-content-first">
         <div class="container">
             <div class="text-center mb-2  mb-md-3 mb-lg-4">
@@ -25,13 +13,31 @@ but also on caring for the whole person</p>
             </div>
         </div>
         <div class="container">
-            <div class="row col-equalH">
-                <div class="col-md-6 col-lg-4" *ngFor="let service of services">
+            <div class="row col-equalH centerize">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-card-photo">
+                            <a href="service-page.html"><img src="assets/images/content/services-01.jpg" class="img-fluid" alt=""></a>
+                        </div>
+                        <h5 class="service-card-name"><a href="javascript:void(0)">Cancer Service</a></h5>
+                        <div class="h-decor"></div>
+                        <p>Cancer care includes a variety of treatments, systematic therapies, surgery and clinical trials.</p>
+                        <ul class="marker-list-md-line">
+                            <li>Chemotherapy</li>
+                            <li>Hormone therapy</li>
+                            <li>Immunotherapy</li>
+                            <li>Precision genomics</li>
+                            <li>Radiation oncology</li>
+                            <li>Surgical oncology</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4" *ngFor="let service of services">
                     <div class="service-card">
                         <div class="service-card-photo">
                             <a href="#"><img [src]="service.servPhoto" class="img-fluid" alt=""></a>
                         </div>
-                        <h5 class="service-card-name"><a href="3">{{ service.servName }}</a></h5>
+                        <h5 class="service-card-name"><a href="javascript:void(0)">{{ service.servName }} {{ 'HOME.INFO' | translate}}</a></h5>
                         <div class="h-decor"></div>
                         <p>{{ service.servText }}</p>
                         <ul class="marker-list-md-line" *ngFor="let list of service.servList">
@@ -39,7 +45,7 @@ but also on caring for the whole person</p>
                             
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
