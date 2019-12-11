@@ -255,27 +255,27 @@ $(function () {
 		})
 	}
 
-	// Slick Carousels Start
+	// // Slick Carousels Start
 	
-	if (blocks.serviceBoxRotator.length) {
-		blocks.serviceBoxRotator.slick({
-			mobileFirst: false,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			infinite: true,
-			autoplay: true,
-			autoplaySpeed: 1800,
-			arrows: false,
-			dots: false,
-			fade: true,
-			responsive: [{
-				breakpoint: 575,
-				settings: {
-					dots: true
-				}
-			}]
-		});
-	}
+	// if (blocks.serviceBoxRotator.length) {
+	// 	blocks.serviceBoxRotator.slick({
+	// 		mobileFirst: false,
+	// 		slidesToShow: 1,
+	// 		slidesToScroll: 1,
+	// 		infinite: true,
+	// 		autoplay: true,
+	// 		autoplaySpeed: 1800,
+	// 		arrows: false,
+	// 		dots: false,
+	// 		fade: true,
+	// 		responsive: [{
+	// 			breakpoint: 575,
+	// 			settings: {
+	// 				dots: true
+	// 			}
+	// 		}]
+	// 	});
+	// }
 
 	if (blocks.servicesCarousel.length) {
 		blocks.servicesCarousel.slick({

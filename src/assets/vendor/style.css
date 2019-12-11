@@ -10398,8 +10398,8 @@ body.noScroll {
   display: none; }
 
 @media (max-width: 575px) {
-  .services-box-wrap-desktop {
-    display: none; }
+  /* .services-box-wrap-desktop {
+    display: none; } */
 
   .services-box-wrap-mobile {
     display: block; } }
@@ -10571,8 +10571,8 @@ body.noScroll {
   .service-box {
     height: 24vw;
     min-height: 230px; }
-    .service-box p {
-      display: none; }
+    /* .service-box p {
+      display: none; } */
 
   .service-box .service-box-title {
     font-size: 20px; }
