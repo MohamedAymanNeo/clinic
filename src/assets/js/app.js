@@ -121,7 +121,7 @@ $(function () {
 			offset = $('#mainSliderWrapper').length ? $('#mainSliderWrapper').height() : 0,
 			stickyNavHeight = 98,
 			headerContentPad = 9;
-	
+
 			if ($.cookie('closePanel') == 'closed') {
 				setTimeout(function () {
 					var shiftY = (stickyNavHeight - headerContentPad * 2 - $('.header-content').height()) * -1 - 2;
@@ -131,7 +131,7 @@ $(function () {
 					$('.js-quickLinks').addClass('closed')
 				}, 500);
 			}
-		
+
 		$.fn.stickyEl.init = function () {
 			if (windowWidth > templateOption.mobileMenuBreikpont) {
 				if ($('.js-quickLinks').length) {
@@ -256,7 +256,7 @@ $(function () {
 	}
 
 	// Slick Carousels Start
-	
+
 	if (blocks.serviceBoxRotator.length) {
 		blocks.serviceBoxRotator.slick({
 			mobileFirst: false,
@@ -624,7 +624,7 @@ $(function () {
 			dots: true
 		});
 	}
-	
+
 	if (blocks.reviewsTextCarousel.length) {
 		blocks.reviewsTextCarousel.slick({
 			mobileFirst: false,
@@ -1021,7 +1021,7 @@ $(function () {
 		this.headerMenu.setHeight();
 		this.headerMenu.setToggler();
 	}
-	
+
 	function mobileInfoSlide() {
 		var $toggle = $('.js-info-toggle'),
 			$content = $('.js-info-content');

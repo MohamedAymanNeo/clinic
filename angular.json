@@ -52,11 +52,9 @@
               "src/assets/vendor/countTo/jquery.countTo.js",
               "src/assets/vendor/form-validation/jquery.form.js",
               "src/assets/vendor/form-validation/jquery.validate.min.js",
-
-              "src/assets/vendor/form-validation/jquery.validate.min.js",
-              "src/assets/js/app.js",
               "src/assets/color/color.js",
-              "src/assets/form/forms.js"
+              "src/assets/form/forms.js",
+              "src/assets/js/app.js"
             ]
           },
           "configurations": {

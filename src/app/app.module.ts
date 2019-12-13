@@ -17,6 +17,7 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { CopyrightsComponent } from './layouts/copyrights/copyrights.component';
 import { PatientsComponent } from './patients/patients.component';
+import { DynamicScriptLoaderService } from './shared-services/script-loader/dynamic-script-loader.service';
 
 
 // AoT requires an exported function for factories
@@ -51,7 +52,7 @@ export function HttpLoaderFactory(http: HttpClient) {
             }
         })
   ],
-  providers: [],
+  providers: [DynamicScriptLoaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
