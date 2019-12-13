@@ -17,6 +17,24 @@
     "DETAILS": "Einzelheiten",
     "CONTACTS": "Unsere Kontakte"
   },
+  "SLIDER": {
+    "QUALITY": "Höchste Qualität",
+    "HEALTH": "Gesundheitswesen",
+    "ACHIVE": "Ihre Gesundheit ist unser größter Erfolg",
+    "BUTTON": "Mehr wissen",
+    "PROVIDE": "Wir bieten an",
+    "MEDICAL": "Volle medizinische Versorgung!",
+    "STANDARD": "Höchster Kundenservice"
+  },
+  
+  "UNDERSLIDER" :{
+    "HOUR": "24 Stunde Notfall",
+    "HOURTEXT": "Für einfachen und schnellen Zugriff rund um die Uhr geöffnet",
+    "LAB": "Komplette Labordienstleistungen",
+    "LABTEXT": "Kosteneffiziente, umfassende und klinische Labordienstleistungen",
+    "MED": "Medizinische Fachkräfte",
+    "MEDTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung"
+  },
   "HOME": {
     "TITLE": "Holden Street San Diego GR",
     "INFO": "Contact Info GR"
@@ -69,5 +87,23 @@
     "SPANTITLE": "Unsere Klinik",
     "FIRSTTEXT": "Wir helfen Ihrem Körper dabei, sich zu regenerieren, indem wir Ihr eigenes Heilungspotential mit einer Vielzahl von Techniken zur Bekämpfung von Krankheiten, Verletzungen oder Entzündungen nutzen. Dieser Prozess beinhaltet eine Vielzahl von Techniken, einschließlich eines minimal-invasiven Verfahrens, das direkt in unserer Klinik durchgeführt wird.",
     "SECONDTEXT": "Wir sind ein Team von medizinischen Forschern und Praktikern, die hart arbeiten, um effektive Behandlungen in unseren Punkt der Pflege-Einrichtungen bereitzustellen."
+  },
+  "MISSION": {
+    "MISS": "Aufgabe",
+    "VIS": "Vision Aussage",
+    "TEXTFLINE": "Wir verwenden einen multimodalen Ansatz, um zunächst die Hürden zu ermitteln, denen ein Patient gegenübersteht.", 
+    "TEXTSLINE": "und dann Methoden identifizieren, um effektiv ein besseres Bild der Gesundheit zu erstellen.", 
+    "MISSIONTITLE": "Unsere Aufgabe",
+    "MISSIONTEXT": "Wir verwenden einen multimodalen Ansatz, um zunächst die Hürden für die Gesundheit eines Patienten zu ermitteln und anschließend Methoden zu ermitteln, mit denen sich ein besseres Bild der Gesundheit aufbauen lässt.",
+    "VISIONTEXT": "Unsere Programme werden von Ärzten und Fitnessfachleuten gemeinsam entwickelt, um unseren Patienten das kollektive Wissen unseres multidisziplinären Teams zu vermitteln.",
+    "PRINCIPLESTITLE": "Klinikprinzipien",
+    "PRINCIPLESTEXT": "Wir bekennen uns zu Grundsätzen, um Operationen und Strategien mit allgemein anerkannten Grundsätzen in den Bereichen Menschenrechte, Umwelt und Korruptionsbekämpfung in Einklang zu bringen."
+  },
+  "FOOTER": {
+    "LOCA": "Klinikstandort",
+    "INFO": "Kontakt Informationen",
+    "TIME": "Arbeitszeit",
+    "PHONE": "Telefon: ",
+    "FAX": "Fax: "
   }
 }

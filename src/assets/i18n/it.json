@@ -17,6 +17,23 @@
     "DETAILS": "Dettagli",
     "CONTACTS": "I nostri contatti"
   },
+  "SLIDER": {
+    "QUALITY": "La massima qualità",
+    "HEALTH": "Assistenza sanitaria",
+    "ACHIVE": "La tua buona salute è il nostro più grande successo",
+    "BUTTON": "Saperne di più",
+    "PROVIDE": "Noi forniamo",
+    "MEDICAL": "Assistenza medica completa!",
+    "STANDARD": "Massimi standard di servizio al cliente"
+  },
+  "UNDERSLIDER" :{
+    "HOUR": "24 Stunden Notfall",
+    "HOURTEXT": "Für einfachen und schnellen Zugriff rund um die Uhr geöffnet",
+    "LAB": "Komplette Labordienstleistungen",
+    "LABTEXT": "Kosteneffiziente, umfassende und klinische Labordienstleistungen",
+    "MED": "Medizinische Fachkräfte",
+    "MEDTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung"
+  },
   "HOME": {
     "TITLE": "Holden Street San Diego IT",
     "INFO": "Contact Info IT"
@@ -69,5 +86,23 @@
     "SPANTITLE": "La nostra clinica",
     "FIRSTTEXT": "Aiutiamo il tuo corpo a ripristinarsi sfruttando il tuo potenziale di guarigione con una varietà di tecniche per combattere aree di malattia, lesioni o infiammazioni. Questo processo prevede una varietà di tecniche tra cui una procedura minimamente invasiva condotta proprio nella nostra clinica.",
     "SECONDTEXT": "Siamo un team di ricercatori e professionisti medici che lavorano duramente per fornire trattamenti efficaci nelle nostre strutture di cura."
+  },
+  "MISSION": {
+    "MISS": "Missione",
+    "VIS": "Dichiarazione di visione",
+    "TEXTFLINE": "Utilizziamo un approccio multimodale per identificare innanzitutto gli ostacoli che devono affrontare la salute di un paziente,", 
+    "TEXTSLINE": "e quindi identificare i metodi per costruire efficacemente un quadro migliore della salute.", 
+    "MISSIONTITLE": "La nostra missione",
+    "MISSIONTEXT": "Usiamo un approccio multimodale per identificare prima gli ostacoli che devono affrontare la salute di un paziente, quindi identificare i metodi per costruire efficacemente un quadro migliore della salute.",
+    "VISIONTEXT": "I nostri programmi sono sviluppati congiuntamente da medici e specialisti del fitness, con l'obiettivo di potenziare i nostri pazienti con le conoscenze collettive del nostro team multidisciplinare.",
+    "PRINCIPLESTITLE": "Principi della clinica",
+    "PRINCIPLESTEXT": "I nostri programmi sono sviluppati congiuntamente da medici e specialisti del fitness, con l'obiettivo di potenziare i nostri pazienti con le conoscenze collettive del nostro team multidisciplinare."
+  },
+  "FOOTER": {
+    "LOCA": "Posizione clinica",
+    "INFO": "Informazioni di contatto",
+    "TIME": "Orario di lavoro",
+    "PHONE": "Telefono: ",
+    "FAX": "Fax: "
   }
 }

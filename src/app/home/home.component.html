@@ -12,10 +12,10 @@
             <div class="vert-wrap container">
               <div class="vert">
                 <div class="container">
-                  <div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">The Highest Quality
-                    <br><b>Healthcare</b></div>
-                  <div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">Your good health is our greatest achievement</div>
-                  <div class="slide-btn"><a href="javascript:void(0)" class="btn btn-grey" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                  <div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">{{ 'SLIDER.QUALITY' | translate }}
+                    <br><b>{{ 'SLIDER.HEALTH' | translate }}</b></div>
+                  <div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">{{ 'SLIDER.ACHIVE' | translate }}</div>
+                  <div class="slide-btn"><a href="javascript:void(0)" class="btn btn-grey" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>{{ 'SLIDER.BUTTON' | translate }}</span><i class="icon-right-arrow"></i></a></div>
                 </div>
               </div>
             </div>
@@ -27,10 +27,10 @@
             <div class="vert-wrap container">
               <div class="vert">
                 <div class="container">
-                  <div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">We Provide
-                    <br><b>Full Medical Care!</b></div>
-                  <div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">Highest standards of customer service</div>
-                  <div class="slide-btn"><a href="javascript:void(0)" class="btn btn-grey" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                  <div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">{{ 'SLIDER.PROVIDE' | translate }}
+                    <br><b>{{ 'SLIDER.MEDICAL' | translate }}</b></div>
+                  <div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">{{ 'SLIDER.STANDARD' | translate }}</div>
+                  <div class="slide-btn"><a href="javascript:void(0)" class="btn btn-grey" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>{{ 'SLIDER.BUTTON' | translate }}</span><i class="icon-right-arrow"></i></a></div>
                 </div>
               </div>
             </div>
@@ -48,8 +48,8 @@
           <div class="icn-text-alt">
             <div class="icn-text-alt-icn"><i class="icon-first-aid-kit"></i></div>
             <div>
-              <h4 class="icn-text-alt-title">24 Hour Emergency</h4>
-              <p>Open round the clock for convenience, quick and easy access</p>
+              <h4 class="icn-text-alt-title">{{ 'UNDERSLIDER.HOUR' | translate }}</h4>
+              <p>{{ 'UNDERSLIDER.HOURTEXT' | translate }}</p>
             </div>
           </div>
         </div>
@@ -57,8 +57,8 @@
           <div class="icn-text-alt">
             <div class="icn-text-alt-icn"><i class="icon-flask"></i></div>
             <div>
-              <h4 class="icn-text-alt-title">Complete Lab Services</h4>
-              <p>Cost-efficient, comprehensive and clinical laboratory services</p>
+              <h4 class="icn-text-alt-title">{{ 'UNDERSLIDER.LAB' | translate }}</h4>
+              <p>{{ 'UNDERSLIDER.LABTEXT' | translate }}</p>
             </div>
           </div>
         </div>
@@ -66,8 +66,8 @@
           <div class="icn-text-alt">
             <div class="icn-text-alt-icn"><i class="icon-doctor"></i></div>
             <div>
-              <h4 class="icn-text-alt-title">Medical Professionals</h4>
-              <p>Qualified and certified physicians for quality medical care</p>
+              <h4 class="icn-text-alt-title">{{ 'UNDERSLIDER.MED' | translate }}</h4>
+              <p>{{ 'UNDERSLIDER.MEDTEXT' | translate }}</p>
             </div>
           </div>
         </div>
@@ -105,6 +105,7 @@
       </div>
     </div>
   </div>
+
   <!--//section welcome-->
  		<!--section services-->
      <div class="section">
@@ -115,7 +116,7 @@
             <div class="h-decor"></div>
           </div>
           <div class="row no-gutters services-box-wrap services-box-wrap-desktop">
-            <div class="col-4 order-1">
+            <div class="col-md-4 col-xs-6">
               <div class="service-box-rotator js-service-box-rotator">
                 <div class="service-box service-box-greybg service-box--hiddenbtn">
                   <div class="service-box-caption text-center">
@@ -126,6 +127,10 @@
                     <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+              <div class="service-box-rotator js-service-box-rotator">
                 <div class="service-box service-box-greybg service-box--hiddenbtn">
                   <div class="service-box-caption text-center">
                     <div class="service-box-icon"><i class="icon-ambulance"></i></div>
@@ -137,28 +142,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-8 order-2">
-              <div class="service-box">
-                <div class="service-box-image" data-bg="/assets/images/content/service-02.jpg"></div>
-                <div class="service-box-caption text-center w-50 ml-auto">
-                  <h3 class="service-box-title">Pediatric Care</h3>
-                  <p>We provide a long list of pediatric services to care for your child from infancy into adulthood</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-8 order-3 order-lg-4 order-xl-3">
-              <div class="service-box">
-                <div class="service-box-image" data-bg="/assets/images/content/service-04.jpg"></div>
-                <div class="service-box-caption text-center w-50 ml-auto">
-                  <h3 class="service-box-title">Family Medicine</h3>
-                  <p>Family Medicine is committed to providing personalized, lifelong care for your entire family.</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 order-5">
-              <div class="service-box-rotator js-service-box-rotator">
+            <div class="col-md-4 col-xs-6">
+              <div class="service-box-rotator">
                 <div class="service-box service-box-greybg service-box--hiddenbtn">
                   <div class="service-box-caption text-center">
                     <div class="service-box-icon"><i class="icon-syringe"></i></div>
@@ -168,70 +153,62 @@
                     <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
                   </div>
                 </div>
+            </div>
+          </div>
+        </div>
+          <div class="row no-gutters services-box-wrap services-box-wrap-desktop">
+            <div class="col-md-4 col-xs-6">
+              <div class="service-box-rotator js-service-box-rotator">
                 <div class="service-box service-box-greybg service-box--hiddenbtn">
                   <div class="service-box-caption text-center">
-                    <div class="service-box-icon"><i class="icon-woman"></i></div>
-                    <div class="service-box-icon-bg"><i class="icon-woman"></i></div>
-                    <h3 class="service-box-title">Women’s Health</h3>
-                    <p>These services offers routine health checkups and treatment for specialty conditions</p>
+                    <div class="service-box-icon"><i class="icon-surgery"></i></div>
+                    <div class="service-box-icon-bg"><i class="icon-surgery"></i></div>
+                    <h3 class="service-box-title">Family Medicine</h3>
+                    <p>Family Medicine is committed to providing personalized, lifelong care for your entire family.</p>
                     <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row no-gutters services-box-wrap services-box-wrap-mobile">
-            <div class="service-box-rotator js-service-box-rotator">
-              <div class="service-box service-box-greybg service-box--hiddenbtn">
-                <div class="service-box-caption text-center">
-                  <div class="service-box-icon"><i class="icon-surgery"></i></div>
-                  <div class="service-box-icon-bg"><i class="icon-surgery"></i></div>
-                  <h3 class="service-box-title">General Surgery</h3>
-                  <p>The general surgical team encompasses a full range of emergency and elective inpatient and day case surgery</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+            <div class="col-md-4 col-xs-6">
+              <div class="service-box-rotator js-service-box-rotator">
+                <div class="service-box service-box-greybg service-box--hiddenbtn">
+                  <div class="service-box-caption text-center">
+                    <div class="service-box-icon"><i class="icon-ambulance"></i></div>
+                    <div class="service-box-icon-bg"><i class="icon-ambulance"></i></div>
+                    <h3 class="service-box-title">Pediatric Care</h3>
+                    <p>We provide a long list of pediatric services to care for your child from infancy into adulthood</p>
+                    <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                  </div>
                 </div>
               </div>
-              <div class="service-box service-box-greybg service-box--hiddenbtn">
-                <div class="service-box-caption text-center">
-                  <div class="service-box-icon"><i class="icon-ambulance"></i></div>
-                  <div class="service-box-icon-bg"><i class="icon-ambulance"></i></div>
-                  <h3 class="service-box-title">Urgent Care</h3>
-                  <p>You don't need an appointment to get treated at our urgent care center</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+              <div class="service-box-rotator">
+                <div class="service-box service-box-greybg service-box--hiddenbtn">
+                  <div class="service-box-caption text-center">
+                    <div class="service-box-icon"><i class="icon-syringe"></i></div>
+                    <div class="service-box-icon-bg"><i class="icon-syringe"></i></div>
+                    <h3 class="service-box-title">Minor Surgical Procedures</h3>
+                    <p>We provide efficient control and cope with chromic diseases like hypertension, asthma and diabetes mellitus</p>
+                    <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                  </div>
                 </div>
-              </div>
-              <div class="service-box service-box-greybg service-box--hiddenbtn">
-                <div class="service-box-caption text-center">
-                  <div class="service-box-icon"><i class="icon-syringe"></i></div>
-                  <div class="service-box-icon-bg"><i class="icon-syringe"></i></div>
-                  <h3 class="service-box-title">Immunizations</h3>
-                  <p>This service can provide you with many of the common vaccines including those required for immunization records</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-                </div>
-              </div>
-              <div class="service-box service-box-greybg service-box--hiddenbtn">
-                <div class="service-box-caption text-center">
-                  <div class="service-box-icon"><i class="icon-woman"></i></div>
-                  <div class="service-box-icon-bg"><i class="icon-woman"></i></div>
-                  <h3 class="service-box-title">Women’s Health</h3>
-                  <p>These services offers routine health checkups and treatment for specialty conditions</p>
-                  <div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
+     </div>
       <!--//section services-->
   <!--section-->
   <div class="section">
     <div class="container">
       <div class="title-wrap text-center">
-        <h2 class="h1">Mission &amp; Vision Statement</h2>
+        <h2 class="h1">{{ 'MISSION.MISS' | translate }} &amp; {{ 'MISSION.VIS' | translate }}</h2>
         <div class="h-decor"></div>
       </div>
-      <p class="max-900 text-center">We use a multi-modality approach to first identify the hurdles facing a patient’s health,
-        <br> and then identify methods to effectively build a better picture of health.</p>
+      <p class="max-900 text-center">{{ 'MISSION.TEXTFLINE' | translate }}
+        <br> {{ 'MISSION.TEXTSLINE' | translate }}</p>
       <div class="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left" data-slick="{&quot;slidesToShow&quot;: 3, &quot;responsive&quot;:[{&quot;breakpoint&quot;: 1024,&quot;settings&quot;:{&quot;slidesToShow&quot;: 2}}]}">
 
 
@@ -240,24 +217,24 @@
           <div class="icn-text">
             <div class="icn-text-circle"><i class="icon-medicine"></i></div>
             <div>
-              <h5 class="icn-text-title">Our Mission</h5>
-              <p>We use a multi-modality approach to first identify the hurdles facing a patient’s health, and then identify methods to effectively build a better picture of health.</p>
+              <h5 class="icn-text-title">{{ 'MISSION.MISSIONTITLE' | translate }}</h5>
+              <p>{{ 'MISSION.MISSIONTEXT' | translate }}</p>
             </div>
           </div>
         </div><div class="col-md" style="">
           <div class="icn-text">
             <div class="icn-text-circle"><i class="icon-pharmacy"></i></div>
             <div>
-              <h5 class="icn-text-title">Vision Statement</h5>
-              <p>Our programs are co-developed by doctors and fitness specialists, aiming to empower our patients with the collective knowledge of our multidisciplinary team. </p>
+              <h5 class="icn-text-title">{{ 'MISSION.VIS' | translate }}</h5>
+              <p>{{ 'MISSION.VISIONTEXT' | translate }}</p>
             </div>
           </div>
         </div><div class="col-md" style="">
           <div class="icn-text">
             <div class="icn-text-circle"><i class="icon-principles"></i></div>
             <div>
-              <h5 class="icn-text-title">Clinic Principles</h5>
-              <p>We are committed to principles to aligning operations and strategies with universally accepted principles in the areas of human rights, environment and anti-corruption.</p>
+              <h5 class="icn-text-title">{{ 'MISSION.PRINCIPLESTITLE' | translate }}</h5>
+              <p>{{ 'MISSION.PRINCIPLESTEXT' | translate }}</p>
             </div>
           </div>
         </div></div>
@@ -266,7 +243,7 @@
   <!--//section-->
 <!-- What We Also Do -->
   <!--section single service -->
-  <div class="section">
+  <!-- <div class="section">
     <div class="container">
       <div class="title-wrap text-center">
         <h2 class="h1">What We Also Do</h2>
@@ -357,112 +334,39 @@
 
       <button type="button" data-role="none" class="slick-prev" aria-label="previous" style="">Previous<span class="icon-wrap"></span></button><button type="button" data-role="none" class="slick-next" aria-label="next" style="">Next<span class="icon-wrap"></span></button><ul class="slick-dots" style=""><li class="" aria-hidden="true"><button type="button" data-role="none">1</button></li><li aria-hidden="false" class="slick-active"><button type="button" data-role="none">2</button></li><li aria-hidden="true" class=""><button type="button" data-role="none">3</button></li><li aria-hidden="true" class=""><button type="button" data-role="none">4</button></li></ul></div>
     </div>
-  </div>
+  </div> -->
   <!--//section single service -->
   <!--section faq-->
   <div class="section bg-grey py-0">
     <div class="container-fluid px-0">
+      <div class="row">
+        <div class="container">
+          <div class="title-wrap text-center">
+            <h2 class="h1">Patient Information</h2>
+          </div>
+        </div>
+      </div>
       <div class="row no-gutters">
-        <div class="col-xl-6 banner-left bg-fullheight" style="background-image: url(assets/images/content/banner-left.jpg)"></div>
         <div class="col-xl-6">
           <div class="faq-wrap px-15 px-lg-8">
-            <div class="title-wrap">
-              <h2 class="h1">Patient Information</h2>
-            </div>
-            <div class="nav nav-pills mt-2 mt-lg-3" role="tablist">
-              <a class="nav-link active" data-toggle="pill" href="#tab-A" role="tab">General</a>
-              <a class="nav-link" data-toggle="pill" href="#tab-B" role="tab">Urgent</a>
-            </div>
-            <div id="tab-content" class="tab-content mt-sm-2">
-              <div id="tab-A" class="tab-pane fade show active" role="tabpanel">
-                <div id="faqAccordion1" class="faq-accordion" data-children=".faq-item">
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem1" aria-expanded="true"><span>1.</span><span>How do I make an appointment?</span></a>
-                    <div id="faqItem1" class="collapse show faq-item-content" role="tabpanel">
-                      <div>
-                        <p>If you would like to make an appointment with one of our practitioners, please contact our reception staff. Alternatively you may book your appointments online. Every effort will be made to accommodate your preferred time and choice of practitioner. </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem2" aria-expanded="false" class="collapsed"><span>2.</span><span>How do I get a copy of my records to another provider? </span></a>
-                    <div id="faqItem2" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem3" aria-expanded="false" class="collapsed"><span>3.</span><span>Is there a charge for copies of my medical record? </span></a>
-                    <div id="faqItem3" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem4" aria-expanded="false" class="collapsed"><span>4.</span><span>How do I assure that my person I designate has access to my medical records? </span></a>
-                    <div id="faqItem4" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="tab-B" class="tab-pane fade" role="tabpanel" style="">
-                <div id="faqAccordion2" class="faq-accordion" data-children=".faq-item">
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem21" aria-expanded="true"><span>1.</span><span>How can I improve my oral hygiene?</span></a>
-                    <div id="faqItem21" class="collapse show faq-item-content" role="tabpanel">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem22" aria-expanded="false" class="collapsed"><span>2.</span><span>How do I know if my teeth are healthy?</span></a>
-                    <div id="faqItem22" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem23" aria-expanded="false" class="collapsed"><span>3.</span>Why are regular dental assessments so important?</a>
-                    <div id="faqItem23" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="faq-item">
-                    <a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem24" aria-expanded="false" class="collapsed"><span>4.</span><span>How often 1 should I visit my dentist?</span></a>
-                    <div id="faqItem24" class="collapse faq-item-content" role="tabpanel" style="">
-                      <div>
-                        <p>
-                          Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalQuestionForm"><i class="icon-right-arrow"></i><span>Ask Question</span><i class="icon-right-arrow"></i></a>
+            <h4 class="res">Responsibilities</h4>
+            <ul *ngFor="let item of responsibilities">
+              <li>{{ item }}</li>
+            </ul>
           </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq-wrap px-15 px-lg-8">
+            <h4 class="rights">Rights</h4>
+            <ul class="lists" *ngFor="let item of rights">
+              <li> <p>{{ item }}</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center">
+            <div class="slide-btn"><a [routerLink]="['/patients']" routerLinkActive="router-link-active"  class="btn btn-grey" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>{{ 'SLIDER.BUTTON' | translate }}</span><i class="icon-right-arrow"></i></a></div>
         </div>
       </div>
     </div>

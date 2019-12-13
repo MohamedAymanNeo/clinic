@@ -255,6 +255,7 @@ $(function () {
 		})
 	}
 
+<<<<<<< HEAD
 	// Slick Carousels Start
 
 	if (blocks.serviceBoxRotator.length) {
@@ -276,6 +277,29 @@ $(function () {
 			}]
 		});
 	}
+=======
+	// // Slick Carousels Start
+	
+	// if (blocks.serviceBoxRotator.length) {
+	// 	blocks.serviceBoxRotator.slick({
+	// 		mobileFirst: false,
+	// 		slidesToShow: 1,
+	// 		slidesToScroll: 1,
+	// 		infinite: true,
+	// 		autoplay: true,
+	// 		autoplaySpeed: 1800,
+	// 		arrows: false,
+	// 		dots: false,
+	// 		fade: true,
+	// 		responsive: [{
+	// 			breakpoint: 575,
+	// 			settings: {
+	// 				dots: true
+	// 			}
+	// 		}]
+	// 	});
+	// }
+>>>>>>> e32c5d65125aa63a1b2d26a7837eb23f71d6e4a7
 
 	if (blocks.servicesCarousel.length) {
 		blocks.servicesCarousel.slick({
