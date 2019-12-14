@@ -98,6 +98,28 @@
     "PRINCIPLESTITLE": "Principi della clinica",
     "PRINCIPLESTEXT": "I nostri programmi sono sviluppati congiuntamente da medici e specialisti del fitness, con l'obiettivo di potenziare i nostri pazienti con le conoscenze collettive del nostro team multidisciplinare."
   },
+  "SERVICES": {
+    "OFFER": "What We Offer",
+    "SERVI": "Our Services",
+    "TEXTFLINE": "Patients receive comprehensive care from expert medical teams that focus not only on specific diseases and disorders",
+    "TEXTSLINE": "but also on caring for the whole person",
+    "PRIMARYTITLE": "Primary Care",
+    "PRIMARYTEXT": "Primary Care Services and Physicians are your gateways to specialty services and programs offered by IU Health.",
+    "PRIMARYFLI": "Preventive services",
+    "PRIMARYSLI": "Care for common illness",
+    "PRIMARYTLI": "Care for chronic conditions",
+    "PRIMARYLLI": "Laboratory and radiology",
+    "LABTITLE": "Laboratory Section",
+    "LABTEXT": "To provide fastest way for diagnoses and managment.",
+    "LABFLI": "Blood Tests",
+    "LABSLI": "Urine analysis",
+    "LABTLI": "Stool analysis",
+    "OBSTITLE": "Observation Room",
+    "OBSTEXT": "To provide fastest way for diagnoses and managment.",
+    "OBSFLI": "For patients who need special care.",
+    "OBSSLI": "Equipped with Electro cardiogram \"EGG\".",
+    "OBSTLI": "Provided with monitor and oxygen cylinder."
+  },
   "FOOTER": {
     "LOCA": "Posizione clinica",
     "INFO": "Informazioni di contatto",
