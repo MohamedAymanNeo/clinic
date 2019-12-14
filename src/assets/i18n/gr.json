@@ -26,7 +26,7 @@
     "MEDICAL": "Volle medizinische Versorgung!",
     "STANDARD": "Höchster Kundenservice"
   },
-  
+
   "UNDERSLIDER" :{
     "HOUR": "24 Stunde Notfall",
     "HOURTEXT": "Für einfachen und schnellen Zugriff rund um die Uhr geöffnet",
@@ -79,7 +79,7 @@
     "SECOND": "Komplette Labordienstleistungen",
     "STEXT": "Kosteneffiziente, umfassende und klinische Labordienstleistungen",
     "THIRD": "Medizinische Fachkräfte",
-    "TTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung" 
+    "TTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung"
   },
   "WELCOME": {
     "TIME": "25 Jahre Medical Excellence",
@@ -91,13 +91,48 @@
   "MISSION": {
     "MISS": "Aufgabe",
     "VIS": "Vision Aussage",
-    "TEXTFLINE": "Wir verwenden einen multimodalen Ansatz, um zunächst die Hürden zu ermitteln, denen ein Patient gegenübersteht.", 
-    "TEXTSLINE": "und dann Methoden identifizieren, um effektiv ein besseres Bild der Gesundheit zu erstellen.", 
+    "TEXTFLINE": "Wir verwenden einen multimodalen Ansatz, um zunächst die Hürden zu ermitteln, denen ein Patient gegenübersteht.",
+    "TEXTSLINE": "und dann Methoden identifizieren, um effektiv ein besseres Bild der Gesundheit zu erstellen.",
     "MISSIONTITLE": "Unsere Aufgabe",
     "MISSIONTEXT": "Wir verwenden einen multimodalen Ansatz, um zunächst die Hürden für die Gesundheit eines Patienten zu ermitteln und anschließend Methoden zu ermitteln, mit denen sich ein besseres Bild der Gesundheit aufbauen lässt.",
     "VISIONTEXT": "Unsere Programme werden von Ärzten und Fitnessfachleuten gemeinsam entwickelt, um unseren Patienten das kollektive Wissen unseres multidisziplinären Teams zu vermitteln.",
     "PRINCIPLESTITLE": "Klinikprinzipien",
     "PRINCIPLESTEXT": "Wir bekennen uns zu Grundsätzen, um Operationen und Strategien mit allgemein anerkannten Grundsätzen in den Bereichen Menschenrechte, Umwelt und Korruptionsbekämpfung in Einklang zu bringen."
+  },
+  "SERVICES": {
+    "OFFER": "Was wir anbieten",
+    "SERVI": "Unsere Leistungen",
+    "TEXTFLINE": "Die Patienten werden von medizinischen Expertenteams umfassend betreut, die sich nicht nur auf bestimmte Krankheiten und Störungen konzentrieren.",
+    "TEXTSLINE": "sondern auch auf die Pflege der ganzen Person",
+    "PRIMARYTITLE": "Grundversorgung",
+    "PRIMARYTEXT": "Primary Care Services und Ärzte sind Ihr Zugang zu Spezialdiensten und Programmen, die von IU Health angeboten werden.",
+    "PRIMARYFLI": "Vorbeugende Dienstleistungen",
+    "PRIMARYSLI": "Pflege bei Volkskrankheiten",
+    "PRIMARYTLI": "Pflege für chronische Erkrankungen",
+    "PRIMARYLLI": "Labor und Radiologie",
+    "LABTITLE": "Laborabteilung",
+    "LABTEXT": "Bereitstellung des schnellsten Wegs zur Diagnose und Verwaltung.",
+    "LABFLI": "Bluttests",
+    "LABSLI": "Urin Analyse",
+    "LABTLI": "Stuhlanalyse",
+    "OBSTITLE": "Beobachtungsraum",
+    "OBSTEXT": "Zur besonderen Betreuung von Patienten, die beobachtet werden müssen.",
+    "OBSFLI": "Für Patienten, die besondere Pflege benötigen.",
+    "OBSSLI": "Ausgestattet mit Elektrokardiogramm.",
+    "OBSTLI": "Ausgestattet mit Monitor und Sauerstoffflasche.",
+    "GENERAL": "Allgemeine Dienstleistungen",
+    "URGENTTITLE": "Notfallversorgung",
+    "URGENTTEXT": "Sie brauchen keinen Termin, um sich in unserer Notaufnahme behandeln zu lassen.",
+    "PEDTITLE": "Pädiatrische Versorgung",
+    "PEDTEXT": "Wir bieten eine lange Liste von pädiatrischen Diensten, die Ihr Kind vom Säuglingsalter bis zum Erwachsenenalter betreuen.",
+    "FAMTITLE": "Familienmedizin",
+    "FAMTEXT": "Family Medicine engagiert sich für die persönliche, lebenslange Betreuung Ihrer gesamten Familie.",
+    "VACCTITLE": "Impfstoffe",
+    "VACCTEXT": "Dieser Service kann Ihnen viele der gebräuchlichen Impfstoffe zur Verfügung stellen, einschließlich derjenigen, die für die Aufzeichnungen über Impfungen erforderlich sind.",
+    "INTERNTITLE": "Innere Medizin",
+    "INTERNTEXT": "Wir sorgen für eine effiziente Kontrolle und bewältigen Chromerkrankungen wie Bluthochdruck, Asthma und Diabetes mellitus.",
+    "MINORTITLE": "Kleinere chirurgische Eingriffe",
+    "MINORTEXT": "Wir sorgen für die Versorgung von Wunden und Abszessen, die als ambulante Leistungen erbracht werden können."
   },
   "FOOTER": {
     "LOCA": "Klinikstandort",

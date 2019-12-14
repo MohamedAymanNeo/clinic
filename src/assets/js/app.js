@@ -15,14 +15,14 @@ $(function () {
 		},
 
 		// Google map options
-		googleMapOption = {
-			latitude: 59.3,
-			longitude: 18.0941403,
-			zoom: 14,
-			marker: [
-				['Our Clinic', 59.3, 18.0941403, 1, 'images/map-marker.png']
-			]
-		},
+		// googleMapOption = {
+		// 	latitude: 59.3,
+		// 	longitude: 18.0941403,
+		// 	zoom: 14,
+		// 	marker: [
+		// 		['Our Clinic', 59.3, 18.0941403, 1, 'images/map-marker.png']
+		// 	]
+		// },
 
 		// Template Blocks
 		blocks = {
@@ -34,8 +34,8 @@ $(function () {
 			specialCarousel: $('.js-special-carousel'),
 			reviewsCarousel: $('.js-reviews-carousel'),
 			singleCarousel: $('.js-slider-single'),
-			googleMapHeader: 'googleMapDrop',
-			googleMapContact: 'googleMapContact',
+			// googleMapHeader: 'googleMapDrop',
+			// googleMapContact: 'googleMapContact',
 			galleryMain: '.js-slider-gallery-main',
 			galleryThumbs: '.js-slider-gallery-thumbs',
 			isotopeGallery: $('.gallery-isotope'),
@@ -255,7 +255,7 @@ $(function () {
 		})
 	}
 
-	// // Slick Carousels Start
+	// Slick Carousels Start
 
 	// if (blocks.serviceBoxRotator.length) {
 	// 	blocks.serviceBoxRotator.slick({
@@ -848,62 +848,62 @@ $(function () {
 	}
 
 	// Google Map Start
-	var mapStyle = [
-		{
-			"featureType": "road",
-			"elementType": "labels",
-			"stylers": [
-				{
-					"visibility": "off"
-		}
-		]
-		}, {
-			"featureType": "poi",
-			"elementType": "labels",
-			"stylers": [
-				{
-					"visibility": "off"
-		}
-		]
-		}, {
-			"featureType": "transit",
-			"elementType": "labels.text",
-			"stylers": [
-				{
-					"visibility": "off"
-		}
-		]
-	}];
+	// var mapStyle = [
+	// 	{
+	// 		"featureType": "road",
+	// 		"elementType": "labels",
+	// 		"stylers": [
+	// 			{
+	// 				"visibility": "off"
+	// 	}
+	// 	]
+	// 	}, {
+	// 		"featureType": "poi",
+	// 		"elementType": "labels",
+	// 		"stylers": [
+	// 			{
+	// 				"visibility": "off"
+	// 	}
+	// 	]
+	// 	}, {
+	// 		"featureType": "transit",
+	// 		"elementType": "labels.text",
+	// 		"stylers": [
+	// 			{
+	// 				"visibility": "off"
+	// 	}
+	// 	]
+	// }];
 
-	function createMap(id, mapZoom, lat, lng, markers) {
-		var mapOptions = {
-			zoom: mapZoom,
-			scrollwheel: false,
-			center: new google.maps.LatLng(lat, lng),
-			styles: mapStyle
-		};
-		var mapHeader = new google.maps.Map(document.getElementById(id), mapOptions);
-		var count,
-			locations = markers;
-		for (count = 0; count < locations.length; count++) {
-			new google.maps.Marker({
-				position: new google.maps.LatLng(locations[count][1], locations[count][2]),
-				map: mapHeader,
-				title: locations[count][0],
-				icon: locations[count][4]
-			});
-		}
-	}
+	// function createMap(id, mapZoom, lat, lng, markers) {
+	// 	var mapOptions = {
+	// 		zoom: mapZoom,
+	// 		scrollwheel: false,
+	// 		center: new google.maps.LatLng(lat, lng),
+	// 		styles: mapStyle
+	// 	};
+	// 	var mapHeader = new google.maps.Map(document.getElementById(id), mapOptions);
+	// 	var count,
+	// 		locations = markers;
+	// 	for (count = 0; count < locations.length; count++) {
+	// 		new google.maps.Marker({
+	// 			position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+	// 			map: mapHeader,
+	// 			title: locations[count][0],
+	// 			icon: locations[count][4]
+	// 		});
+	// 	}
+	// }
 
 
-	function footerMap(el, map) {
-		var $map = map;
-		$(el).on('click', function (e) {
-			e.preventDefault();
-			$(this).toggleClass('opened');
-			$map.toggleClass('opened');
-		})
-	}
+	// function footerMap(el, map) {
+	// 	var $map = map;
+	// 	$(el).on('click', function (e) {
+	// 		e.preventDefault();
+	// 		$(this).toggleClass('opened');
+	// 		$map.toggleClass('opened');
+	// 	})
+	// }
 	// Google Map End
 
 	// Mobile Top Info

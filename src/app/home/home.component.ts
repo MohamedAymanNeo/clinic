@@ -3,13 +3,13 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationService } from '../translation.service';
 import { DynamicScriptLoaderService } from '../shared-services/script-loader/dynamic-script-loader.service';
-declare const $ :any
+declare const $ :any;
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit,AfterViewInit {
+export class HomeComponent implements OnInit, AfterViewInit {
 
   rights = [
     'Be treated in a manner respectful to your personal privacy and dignity.',
@@ -29,13 +29,16 @@ export class HomeComponent implements OnInit,AfterViewInit {
     'Notify your provider of changes in address, phone number and insurance information in a timely manner.'
   ];
 
-  constructor(public translate: TranslateService, private translateServ: TranslationService,private scriptLoaderSrvc:DynamicScriptLoaderService) { }
+  constructor(
+    public translate: TranslateService,
+    private translateServ: TranslationService,
+    private scriptLoaderSrvc: DynamicScriptLoaderService) { }
 
   ngOnInit() {
 
   }
   ngAfterViewInit(){
-    this.scriptLoaderSrvc.loadScript('app.js')
+    this.scriptLoaderSrvc.loadScript('app.js');
   }
 
 
