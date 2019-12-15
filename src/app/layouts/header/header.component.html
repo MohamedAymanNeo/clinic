@@ -22,12 +22,12 @@
           <span class="icon-menu"></span>
         </button>
         <div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
-          <a [routerLink]="['']" class="header-logo"><img src="../../../assets/images/logo.png" alt="" class="img-fluid"></a>
+          <a [routerLink]="['']" class="header-logo">Ocean Clinic</a>
         </div>
         <div class="col-lg ml-auto header-nav-wrap">
           <div class="header-nav js-header-nav">
             <nav class="navbar navbar-expand-lg btco-hover-menu">
-              <div class="collapse navbar-collapse " id="navbarNavDropdown" style="max-height: 598px;">
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link text-capitalize" [routerLink]="['']" > {{ 'MENU.HOME' | translate }} </a>
@@ -46,7 +46,7 @@
                   </li>
                   <li class="nav-item">
                     <div class="select">
-                        {{ 'MENU.CHOOSE' | translate }}
+                        <!-- {{ 'MENU.CHOOSE' | translate }} -->
                       <select name="slct" id="slct" #langselect (change)="translate.use(langselect.value)">
                         <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
                       </select>
