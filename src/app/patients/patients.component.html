@@ -2,3 +2,41 @@
 
 
 <!-- https://www.riversidemedicalclinic.com/patients/patient-rights/?fbclid=IwAR0ZVqG-M0-_OOnHP0bON7HH_y-RDQVa2iUYUQyOS7xiyhM80fmADR0SPH0 -->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="patient-title text-center">
+                    <h2>Patients</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="resp">
+                    <div class="resp-title text-center">
+                        <h4>Responsibilities</h4>
+                    </div>
+                    <div class="resp-info">
+                        <ul>
+                            <li *ngFor="let item of responsibilities">{{ item }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="rights bg-grey">
+                    <div class="rights-title text-center">
+                        <h4>Rights</h4>
+                    </div>
+                    <div class="rights-info">
+                        <ul>
+                            <li *ngFor="let item of rights">{{ item }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

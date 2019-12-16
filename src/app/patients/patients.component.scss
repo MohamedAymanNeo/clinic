@@ -1,0 +1,21 @@
+section {
+    padding: 50px 0 0 0;
+    
+    .patient-title {
+        margin-bottom: 50px;
+        @media (min-width: 600px) {
+            margin-bottom: 100px; 
+        }
+    }
+    .resp-info,
+    .rights-info {
+      ul {
+          li {
+              line-height: 2.7;
+              &::first-letter {
+                  color: orange;;
+              }
+          }
+      }  
+    }
+}
