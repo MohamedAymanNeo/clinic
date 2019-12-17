@@ -10,7 +10,7 @@
         <div class="col-auto d-flex align-items-center">
           <div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">1-800-267-0000</a></div>
           <div class="header-info"><i class="icon-placeholder2"></i>1560 {{ 'HOME.TITLE' | translate }}, CA 92139</div>
-          <div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@dentco.net</a></div>
+          <div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@oceanclinic.net</a></div>
         </div>
       </div>
     </div>
@@ -22,14 +22,21 @@
           <span class="icon-menu"></span>
         </button>
         <div class="col-lg-auto col-lg-2 d-flex align-items-lg-center col-8 ">
-          <a [routerLink]="['']" class="header-logo">Ocean Clinic</a>
+          <a [routerLink]="['']" class="header-logo">
+            <span class="color1">O</span>
+            <span class="color2">c</span>
+            <span class="color1">e</span>
+            <span class="color2">a</span>
+            <span class="color1">n</span>
+             Clinic
+          </a>
         </div>
         <!--   language change dropdown on mobile - start -->
         <div class="lang-change-mobile">
           <div class="select">
             <!-- {{ 'MENU.CHOOSE' | translate }} -->
-            <select name="slct" id="slct" #langselect (change)="translate.use(langselect.value)">
-              <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+            <select name="slct" id="slct" #langselectmob (change)="translate.use(langselectmob.value)">
+              <option class="text-capitalize" *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
             </select>
           </div>
         </div>
@@ -58,7 +65,7 @@
                     <div class="select lang-change">
                         <!-- {{ 'MENU.CHOOSE' | translate }} -->
                       <select name="slct" id="slct" #langselect (change)="translate.use(langselect.value)">
-                        <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+                        <option class="text-capitalize" *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
                       </select>
                     </div>
                   </li>

@@ -63,3 +63,28 @@ select {
       display: none!important;
      }
    }
+
+   .color1 {
+    color: #868e96;
+    transition:all .4s ease-in-out;
+   }
+   .header-logo:hover .color1 {
+      color: #f7a402;
+      transition:all .4s ease-in-out;
+    }
+    .color2 {
+      color: #f7a402;
+      transition:all .4s ease-in-out;
+    }
+    .header-logo:hover .color2 {
+      color: #868e96;
+      transition:all .4s ease-in-out;
+    }
+    .header-logo:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+   .color1,.color2 {
+     font-size: 1.6em;
+   }
+
