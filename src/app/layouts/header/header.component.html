@@ -21,9 +21,19 @@
         <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown" style="top: 32px;">
           <span class="icon-menu"></span>
         </button>
-        <div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+        <div class="col-lg-auto col-lg-2 d-flex align-items-lg-center col-8 ">
           <a [routerLink]="['']" class="header-logo">Ocean Clinic</a>
         </div>
+        <!--   language change dropdown on mobile - start -->
+        <div class="lang-change-mobile">
+          <div class="select">
+            <!-- {{ 'MENU.CHOOSE' | translate }} -->
+            <select name="slct" id="slct" #langselect (change)="translate.use(langselect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+            </select>
+          </div>
+        </div>
+        <!--   language change dropdown on mobile - end -->
         <div class="col-lg ml-auto header-nav-wrap">
           <div class="header-nav js-header-nav">
             <nav class="navbar navbar-expand-lg btco-hover-menu">
@@ -45,7 +55,7 @@
                     <a class="nav-link text-capitalize" [routerLink]="['/contacts']">{{ 'MENU.CONTACTS' | translate }}</a>
                   </li>
                   <li class="nav-item">
-                    <div class="select">
+                    <div class="select lang-change">
                         <!-- {{ 'MENU.CHOOSE' | translate }} -->
                       <select name="slct" id="slct" #langselect (change)="translate.use(langselect.value)">
                         <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>

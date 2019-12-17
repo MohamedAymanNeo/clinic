@@ -1,3 +1,6 @@
-.sticky-wrapper {
-    height: 588px;
-}
+
+ @media(min-width :1024px){
+  div.js-quickLinks-wrap-m > div {
+    height:588px!important;
+  }
+ }

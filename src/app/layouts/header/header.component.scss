@@ -51,3 +51,15 @@ select {
     color: #fff;
     // color: #f39c12;
   }
+
+  @media(min-width :1024px){
+    .lang-change-mobile {
+      display: none!important;
+    }
+   }
+
+   @media(max-width:1023px){
+     .lang-change {
+      display: none!important;
+     }
+   }
