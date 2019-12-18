@@ -10,10 +10,10 @@ import { TranslationService } from '../../translation.service';
 export class HeaderComponent implements OnInit {
 
   constructor(public translate: TranslateService, private translateServ: TranslationService) {
-    // translate.addLangs(['en', 'it', 'gr']);
-    // translate.setDefaultLang('en');
-    // const browserLang = translate.getBrowserLang();
-    // translate.use(browserLang.match(/en|it|gr/) ? browserLang : 'en');
+    translate.addLangs(['en', 'it', 'gr']);
+    translate.setDefaultLang('en');
+    const browserLang = translate.getBrowserLang();
+    translate.use(browserLang.match(/en|it|gr/) ? browserLang : 'en');
   }
 
   ngOnInit() {

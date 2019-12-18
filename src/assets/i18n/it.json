@@ -29,10 +29,10 @@
   "UNDERSLIDER" :{
     "HOUR": "24 Stunden Notfall",
     "HOURTEXT": "Für einfachen und schnellen Zugriff rund um die Uhr geöffnet",
-    "LAB": "Komplette Labordienstleistungen",
-    "LABTEXT": "Kosteneffiziente, umfassende und klinische Labordienstleistungen",
-    "MED": "Medizinische Fachkräfte",
-    "MEDTEXT": "Qualifizierte und zertifizierte Ärzte für hochwertige medizinische Versorgung"
+    "LAB": "Servizi di laboratorio completi",
+    "LABTEXT": "Servizi di laboratorio economici, completi e clinici",
+    "MED": "Professionisti medici",
+    "MEDTEXT": "Medici qualificati e certificati per cure mediche di qualità"
   },
   "HOME": {
     "TITLE": "Holden Street San Diego IT",
